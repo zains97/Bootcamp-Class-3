@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Hello <strong>Zain</strong>!
+      <p>
+        The MERN stack consists the following languages:
+        <div className="list-container">
+          <ul>
+            <li>Mongo Db</li>
+            <li>Express JS</li>
+            <li>React</li>
+            <li>Node JS</li>
+          </ul>
+        </div>
+        The following teachers teach us MERN stack development:
+        <div className="list-container">
+          <ol>
+            <li>Adil Altaf</li>
+            <li>Zia Khan</li>
+            <li>Zeeshan Hanif</li>
+          </ol>
+        </div>
+        Hi guys I am {20 + 3} years old I am excitedd to learn web development!
+      </p>
     </div>
   );
 }

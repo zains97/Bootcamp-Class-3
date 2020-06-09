@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.list-container {
+  text-align: center;
+}
+ul {
+  color: blue;
+  text-align: left;
+}
+
+ol {
+  color: crimson;
+  text-align: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
